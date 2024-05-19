@@ -2,3 +2,6 @@
 
 go.work
 go.work.sum
+
+./example/go.work
+./example/go.work.sum
