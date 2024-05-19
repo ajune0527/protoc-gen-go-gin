@@ -37,6 +37,10 @@ func (s service) GetArticles(ctx context.Context, req *v1.GetArticlesReq) (*v1.G
 
 func main() {
 	e := gin.Default()
-	v1.RegisterBlogServiceHTTPServer(e, &service{})
+	v1.RegisterBlogServiceHTTPServer(e, &service{}, nil)
 	e.Run()
+}
+
+func a(c *context.Context) {
+
 }

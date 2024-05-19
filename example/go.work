@@ -1,0 +1,9 @@
+go 1.22
+
+use .
+
+
+
+replace (
+	github.com/ajune0527/golibs => /Users/ajune/projects/git-project/golibs
+)

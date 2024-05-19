@@ -1,11 +1,11 @@
 module github.com/mohuishou/protoc-gen-go-gin/example
 
-go 1.16
+go 1.22
 
 require (
 	github.com/gin-gonic/gin v1.6.3
-	github.com/golang/protobuf v1.4.3
-	github.com/pkg/errors v0.9.1
-	google.golang.org/genproto v0.0.0-20210224155714-063164c882e6
-	google.golang.org/grpc v1.36.0
+	github.com/go-kratos/kratos/v2 v2.7.3
+	google.golang.org/genproto/googleapis/api v0.0.0-20230629202037-9506855d4529
+	google.golang.org/protobuf v1.31.0
+	github.com/ajune0527/golibs v0.0.0-20240208140322-5abb133e45e5
 )
