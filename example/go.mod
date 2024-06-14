@@ -1,4 +1,4 @@
-module github.com/mohuishou/protoc-gen-go-gin/example
+module github.com/ajune0527/protoc-gen-go-gin
 
 go 1.22
 
