@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
+	"github.com/ajune0527/protoc-gen-go-gin/example/api/product/app/ecode"
+	v1 "github.com/ajune0527/protoc-gen-go-gin/example/api/product/app/v1"
 	"github.com/gin-gonic/gin"
-	"github.com/mohuishou/protoc-gen-go-gin/example/api/product/app/ecode"
-	v1 "github.com/mohuishou/protoc-gen-go-gin/example/api/product/app/v1"
 )
 
 type service struct {
