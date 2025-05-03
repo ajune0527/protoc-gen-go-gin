@@ -9,4 +9,4 @@ require (
 
 require github.com/golang/protobuf v1.5.0 // indirect
 
-replace github.com/mohuishou/protoc-gen-go-gin => .
+//replace github.com/mohuishou/protoc-gen-go-gin => .
